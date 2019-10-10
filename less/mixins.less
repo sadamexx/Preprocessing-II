@@ -1,1 +1,19 @@
 // Mixins in here
+
+.custom-button(@fntsize, @txt-color){
+    display: block;
+    background-color: @button-bg;
+    margin: 0 10px 20px;
+    cursor: pointer;
+    width:200px;
+    height:45px;
+    font-size:@fntsize;
+    border-radius:10px;
+    color:@txt-color;
+
+    &:hover{
+        background-color: @txt-color;
+        color: @mainbg;
+    }
+
+}
