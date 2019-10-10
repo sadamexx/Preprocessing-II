@@ -1,23 +1,15 @@
 .home {
 
 header {
-  max-width: 800px;
   width: 100%;
   margin: 0 auto;
   border-bottom: 2px dashed @navigation-border;
 }
 
-
-
-
-
-
-
-
-
-
-
-  .content-section {
+header .welcome .text-content{
+  padding:4% 0;
+}
+.content-section {
     margin: 30px 0;
     display: flex;
     flex-wrap: wrap;
@@ -69,6 +61,7 @@ header {
     border-top: 2px dashed @navigation-border;
     display: flex;
     justify-content: space-between;
+    
 
     .destination {
       width: 30%;
@@ -76,9 +69,11 @@ header {
     }
 
     .btn {
-      .custom-button(2rem, white){
-        
-      }
-    }
+      width: 90%;
+      justify-content: center;
+         .signUp{
+          .custom-button(1.8rem, @main-bg);
+         }
+    }   
   }
 }// home
