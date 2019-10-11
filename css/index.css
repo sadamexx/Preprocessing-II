@@ -1,3 +1,8 @@
+@media (max-width: 500px) {
+  width: 90%;
+  height: 50px;
+  font-size: 1.8rem;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -199,6 +204,13 @@ nav {
   width: 100%;
   margin: 0 auto;
   border-bottom: 2px dashed #C0C0C0;
+}
+@media (max-width: 500px) {
+  .home header {
+    width: 90%;
+    height: 50px;
+    font-size: 1.8rem;
+  }
 }
 .home header .welcome .text-content {
   padding: 4% 0;
