@@ -1,1 +1,25 @@
 // Mixins in here
+
+.custom-button(@fntsize, @txt-color){
+    background-color: @button-bg;
+    margin:10px;
+    align-items:center;
+    width:90%;
+    height:45px;
+    font-size:@fntsize;
+    border-radius:10px;
+    color:@txt-color;
+    padding: 5px 0;
+    cursor: pointer;
+
+    &:hover{
+        background-color: @footer-bg;
+        color: @font-color;
+    }
+}
+
+@media @mobile{
+    width: 90%;
+    height: 50px;
+    font-size: 1.8rem;
+}
